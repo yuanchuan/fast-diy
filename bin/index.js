@@ -87,7 +87,7 @@ compose(
     next(format(html.toString()));
   }, 
   function(ms) {
-    console.log('\n  Done in %s ms\n', ms)
+    console.log('\n Formatted in %ss\n', ms/1e3)
   }
 );
 
