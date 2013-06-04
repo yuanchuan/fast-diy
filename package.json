@@ -1,0 +1,31 @@
+{
+  "name": "fast-diy",
+  "version": "0.0.1",
+  "description": "A small tool to quickly format Discuz! diy module.",
+  "main": "bin/index",
+  "bin": {
+    "fast-diy": "index.js"
+  },
+  "dependencies": {
+    "cheerio": "~0.8.3",
+    "fcompose": "~0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuanchuan/fast-diy"
+  },
+  "keywords": [
+    "diy",
+    "discuz"
+  ],
+  "author": "yuanchuan",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/yuanchuan/fast-diy/issues"
+  }
+}
