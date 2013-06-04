@@ -32,7 +32,8 @@ var format = function(html) {
     var id = 'diy-' + Math.random().toString(16).substr(2);  
     // use default id for div.
     if (div) {
-      id = $diy.attr('id') || id; 
+      $diy.attr('id') || $diy.attr('id', id)
+      id = $diy.attr('id');
     }
     // replace with the diy format content.
     $diy.replaceWith(

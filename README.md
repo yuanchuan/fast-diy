@@ -15,7 +15,7 @@ Add a "diy" class name to each html tag which is going to be DIYed. Then:
 $ fast-diy INPUT.html OUTPUT.html
 ```
 
-Example input:
+Sample input:
 
 ```html
 <div class="diy">
@@ -23,10 +23,10 @@ Example input:
 </div>
 ```
 
-Example output
+Sample output:
 
 ```html
-<!--[diy=diy-f78e9de8]--><div>
+<!--[diy=diy-f78e9de8]--><div id="diy-f78e9de8">
   <p> test </p>
 </div><!--[/diy]-->
 ```
