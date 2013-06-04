@@ -18,7 +18,7 @@ $ fast-diy INPUT.html OUTPUT.html
 Sample input:
 
 ```html
-<div class="diy article">
+<div class="article diy">
   <p> test </p>
 </div>
 ```
