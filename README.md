@@ -1,6 +1,6 @@
 # fast-diy
 
-A small tool to quickly format Discuz! diy module.   
+A small tool to quickly format Discuz! diy module(I hate it!).  
 
 ## Install from npm
 
@@ -9,7 +9,7 @@ $ npm install -g fast-diy
 ```
 
 ## How to use
-Add a "diy" class name to each html tag which is going to be DIYed. Then: 
+Add a `diy` class name to each html tag which is going to be DIYed and run the **fast-diy** command: 
 
 ```bash
 $ fast-diy INPUT.html OUTPUT.html
@@ -18,7 +18,7 @@ $ fast-diy INPUT.html OUTPUT.html
 Sample input:
 
 ```html
-<div class="diy">
+<div class="diy article">
   <p> test </p>
 </div>
 ```
@@ -26,7 +26,7 @@ Sample input:
 Sample output:
 
 ```html
-<!--[diy=diy-f78e9de8]--><div id="diy-f78e9de8">
+<!--[diy=diy-f78e9de8]--><div class="article" id="diy-f78e9de8">
   <p> test </p>
 </div><!--[/diy]-->
 ```
